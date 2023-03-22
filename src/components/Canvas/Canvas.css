@@ -1,0 +1,16 @@
+.canvas {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-color: #C8E8FF;
+}
+
+.canvas__title {
+    margin: 0;
+    font-family: 'Amatic SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: #698CBF;
+}
+
