@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 .canvas {
     position: relative;
     width: auto;
@@ -6,8 +8,12 @@
 }
 
 .canvas__title {
+    position: absolute;
+    top: 110px;
+    left: 145px;
     margin: 0;
-    font-family: 'Amatic SC', serif;
+
+    font-family: 'Amatic SC', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 200px;
