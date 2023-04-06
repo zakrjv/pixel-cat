@@ -21,6 +21,8 @@ function Cat() {
         </div>
 
       </div>
+
+      <div className="cat__tail" />
     </div>
   );
 }
