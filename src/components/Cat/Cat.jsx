@@ -10,7 +10,10 @@ function Cat() {
       </div>
 
       <div className="cat__head-body">
-        <div className="cat__eyes" />
+        <div className="cat__eyes">
+          <div className="cat__eyes--left" />
+          <div className="cat__eyes--right" />
+        </div>
 
         <div className="cat__muzzle">
           <div className="cat__nose" />
