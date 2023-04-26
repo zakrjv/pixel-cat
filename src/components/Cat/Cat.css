@@ -4,6 +4,10 @@
     left: 200px;
 }
 
+.cat--mirror {
+    transform: scale(-1, 1);
+}
+
 .cat__head-body {
     position: relative;
     width: 90px;
@@ -35,6 +39,7 @@
     justify-content: space-between;
     position: absolute;
     top: 30px;
+    left: 1px;
 
     width: 60px;
 }
@@ -79,7 +84,7 @@
 .cat__mouth {
     position: absolute;
     bottom: 22px;
-    left: 29px;
+    left: 30px;
 
     height: 6px;
     width: 1px;
@@ -146,3 +151,36 @@
 }
 
 
+
+/* CatDown */
+.cat--down {
+    left: 500px;
+}
+
+.cat--down .cat__head-body {
+    height: 45px;
+}
+
+.cat--down .cat__ears--left {
+    transform-origin: bottom left;
+    transform: rotate(150deg);
+}
+
+.cat--down .cat__ears--right {
+    transform-origin: bottom right;
+    transform: rotate(210deg);
+}
+
+.cat--down .cat__eyes {
+    top: 8px;
+}
+
+.cat--down .cat__tail::before {
+    right: -40px;
+    bottom: 0;
+    transform: none;
+}
+
+.cat--down .cat__tail::after {
+    display: none;
+}
