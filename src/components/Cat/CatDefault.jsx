@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cat.css';
 
-// eslint-disable-next-line react/prop-types
 function CatDefault({ right }) {
   return (
     <div className={right ? 'cat cat--right' : 'cat'}>

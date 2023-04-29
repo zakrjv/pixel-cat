@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { useHotkeys } from 'react-hotkeys-hook';
 import CatDown from './CatDown';
 import CatDefault from './CatDefault';
