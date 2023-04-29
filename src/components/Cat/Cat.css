@@ -4,7 +4,7 @@
     left: 200px;
 }
 
-.cat--mirror {
+.cat--right {
     transform: scale(-1, 1);
 }
 
@@ -153,10 +153,6 @@
 
 
 /* CatDown */
-.cat--down {
-    left: 500px;
-}
-
 .cat--down .cat__head-body {
     height: 45px;
 }

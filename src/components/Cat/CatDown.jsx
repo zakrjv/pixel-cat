@@ -1,8 +1,9 @@
 import React from 'react';
 
-function CatDown() {
+// eslint-disable-next-line react/prop-types
+function CatDown({ right }) {
   return (
-    <div className="cat cat--down">
+    <div className={right ? 'cat cat--down cat--right' : 'cat cat--down'}>
       <div className="cat__ears">
         <div className="cat__ears--left" />
         <div className="cat__ears--right" />
